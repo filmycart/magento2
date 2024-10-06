@@ -348,6 +348,16 @@ return [
         'Magento_WishlistSampleData' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
+        'Sm_BackEnd' => 1,
+        'Sm_BasicProducts' => 1,
+        'Sm_CartQuickPro' => 1,
+        'Sm_Deals' => 1,
+        'Sm_ImageSlider' => 1,
+        'Sm_ListingTabs' => 1,
+        'Sm_MegaMenu' => 1,
+        'Sm_SearchBox' => 1,
+        'Sm_ShopBy' => 1,
+        'Sm_ShoppyStore' => 1,
         'Temando_ShippingRemover' => 1
     ]
 ];

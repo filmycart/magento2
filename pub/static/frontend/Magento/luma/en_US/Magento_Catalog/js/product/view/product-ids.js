@@ -1,1 +1,12 @@
-/var/www/html/fmcm2/vendor/magento/module-catalog/view/frontend/web/js/product/view/product-ids.js
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+define([
+    'ko'
+], function (ko) {
+    'use strict';
+
+    return ko.observableArray([]);
+});

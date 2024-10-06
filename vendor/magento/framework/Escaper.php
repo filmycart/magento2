@@ -436,8 +436,11 @@ class Escaper
      */
     public function escapeQuote($data, $addSlashes = false)
     {
+        $data = '';
         if ($addSlashes === true) {
-            $data = addslashes($data);
+            if(!empty($data)) {
+                $data = addslashes($data) ?? '';
+            }
         }
         return htmlspecialchars($data, $this->htmlSpecialCharsFlag, null, false);
     }
